@@ -1,3 +1,8 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/nord.toml"
+]
+
 [window]
 padding = { x = 16, y = 16 }
 dynamic_padding = true
@@ -13,41 +18,6 @@ normal      = { family = "MesloLGSDZ Nerd Font", style = "Regular" }
 bold        = { family = "MesloLGSDZ Nerd Font", style = "Bold" }
 italic      = { family = "MesloLGSDZ Nerd Font", style = "Italic" }
 bold_italic = { family = "MesloLGSDZ Nerd Font", style = "Bold Italic" }
-
-[colors]
-
-    [colors.primary]
-    foreground = "#d8dee9"
-    background = "#2e3440"
-    dim_foreground = "#a5abb6"
-
-    [colors.cursor]
-    text = "#2e3440"
-    cursor = "#81a1c1"
-
-    [colors.selection]
-    background = "#4c566a"
-    text = "CellForeground"
-
-    [colors.normal]
-    black = "#3b4252"
-    blue = "#81a1c1"
-    cyan = "#88c0d0"
-    green = "#a3be8c"
-    magenta = "#b48ead"
-    red = "#bf616a"
-    white = "#e5e9f0"
-    yellow = "#ebcb8b"
-
-    [colors.bright]
-    black = "#4c566a"
-    blue = "#81a1c1"
-    cyan = "#8fbcbb"
-    green = "#a3be8c"
-    magenta = "#b48ead"
-    red = "#bf616a"
-    white = "#eceff4"
-    yellow = "#ebcb8b"
 
 # [bell]
 # animation = "EaseOutSine"
